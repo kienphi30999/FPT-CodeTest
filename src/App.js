@@ -1,10 +1,17 @@
 import React from "react";
 import "./App.less";
 
+import Header from "./component/Header";
+import Body1 from "./component/Body1";
+import Body2 from "./component/Body2";
+import Footer from "./component/Footer";
+
 const App = () => (
-  <div className="header">
-    <h1>Hello React</h1>
-    <h2>Test Deploy 2</h2>
+  <div className="wrapper">
+    <Header />
+    <Body1 />
+    <Body2 />
+    <Footer />
   </div>
 );
 
